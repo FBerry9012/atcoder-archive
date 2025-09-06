@@ -1,4 +1,4 @@
-S = input() 
+S = input()
 
 if S == "red":
     print("SSS")

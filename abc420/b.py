@@ -19,5 +19,5 @@ for j in range(N):
     dist.append(distance.hamming(L, b) * M)
 
 mi = min(dist)
-banme = [str(i+1) for i, v in enumerate(dist) if v == mi]
+banme = [str(i + 1) for i, v in enumerate(dist) if v == mi]
 print(" ".join(banme))

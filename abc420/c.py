@@ -10,12 +10,12 @@ for _ in range(Q):
     v = int(v)
 
     ans -= min(A[x], B[x])
-    
+
     if c == "A":
         A[x] = v
     else:
         B[x] = v
 
     ans += min(A[x], B[x])
-    
+
     print(ans)
